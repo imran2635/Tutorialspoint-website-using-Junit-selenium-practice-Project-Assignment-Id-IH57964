@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.automation.StudentRegistrationFormTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-05-09T04:32:55.201Z" hostname="DESKTOP-DKEC0GM" time="5.047">
+  <properties/>
+  <testcase name="Step 1 - Navigate to the Practice Form URL" classname="com.automation.StudentRegistrationFormTest" time="1.937"/>
+  <testcase name="Step 2a - Fill Name field" classname="com.automation.StudentRegistrationFormTest" time="0.131"/>
+  <testcase name="Step 2b - Fill Email field" classname="com.automation.StudentRegistrationFormTest" time="0.145"/>
+  <testcase name="Step 2c - Select Gender: Male" classname="com.automation.StudentRegistrationFormTest" time="0.086"/>
+  <testcase name="Step 2d - Fill Mobile number" classname="com.automation.StudentRegistrationFormTest" time="0.09"/>
+  <testcase name="Step 2e - Fill Date of Birth" classname="com.automation.StudentRegistrationFormTest" time="0.048"/>
+  <testcase name="Step 2f - Fill Subjects field" classname="com.automation.StudentRegistrationFormTest" time="0.109"/>
+  <testcase name="Step 2g - Select Hobby: Sports" classname="com.automation.StudentRegistrationFormTest" time="0.063"/>
+  <testcase name="Step 2h - Upload Picture (file input)" classname="com.automation.StudentRegistrationFormTest" time="0.028"/>
+  <testcase name="Step 2i - Fill Current Address" classname="com.automation.StudentRegistrationFormTest" time="0.098"/>
+  <testcase name="Step 2j - Select State: Uttar Pradesh" classname="com.automation.StudentRegistrationFormTest" time="0.12"/>
+  <testcase name="Step 2k - Select City: Meerut" classname="com.automation.StudentRegistrationFormTest" time="0.103"/>
+  <testcase name="Step 3 - Click the Login button" classname="com.automation.StudentRegistrationFormTest" time="2.077"/>
+  <system-out><![CDATA[✅ Navigated to: https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php
+✅ Name entered: Imran Hossain
+✅ Email entered: hossainmim2635@gmail.com
+✅ Gender selected: Male
+✅ Mobile entered: 0167467464
+✅ Date of Birth entered: 1988-06-06
+✅ Subjects entered: Student Registration
+✅ Hobby selected: Sports
+✅ Picture uploaded from: C:/Users/h/Downloads/545340.jpg
+✅ Address entered: Dhaka, Bangladesh
+✅ State selected: Uttar Pradesh
+✅ City selected: Meerut
+✅ Login button clicked!
+✅ Current URL after login click: https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php
+]]></system-out>
+  <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+May 09, 2026 10:32:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+May 09, 2026 10:32:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.100. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
